@@ -1,0 +1,103 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2908,         93]
+NotebookOptionsPosition[      2365,         74]
+NotebookOutlinePosition[      2703,         89]
+CellTagsIndexPosition[      2660,         86]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Cloud Scratchpad", "Section",
+ CellChangeTimes->{{3.840020253718605*^9, 
+  3.840020264544541*^9}},ExpressionUUID->"40189aa0-2b20-4082-a044-\
+8c6ba7fd174c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{
+   RowBox[{"Manipulate", "[", 
+    RowBox[{
+     RowBox[{"ContourPlot3D", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"x", "^", "2"}], "+", 
+         RowBox[{"y", "^", "2"}], "+", 
+         RowBox[{"a", " ", 
+          RowBox[{"z", "^", "3"}]}]}], "\[Equal]", "1"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"z", ",", 
+         RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+       RowBox[{"Mesh", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"a", ",", 
+       RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "]"}], ",", " ", 
+   RowBox[{"Permissions", "\[Rule]", "\"\<Public\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8400192121238527`*^9, 3.84001921416131*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"98146db6-ab25-4aed-8af9-7e883311ba3c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/51f22ba0-004d-46b9-bda4-4e75b751e841\"\
+","https://www.wolframcloud.com/obj/51f22ba0-004d-46b9-bda4-4e75b751e841"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/51f22ba0-004d-46b9-bda4-4e75b751e841"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.8400326953567543`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"88e97ab9-dfed-4716-afd5-8984dd49027a"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 873},
+WindowMargins->{{92, Automatic}, {126, Automatic}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 161, 3, 67, "Section",ExpressionUUID->"40189aa0-2b20-4082-a044-8c6ba7fd174c"],
+Cell[CellGroupData[{
+Cell[766, 29, 1050, 28, 73, "Input",ExpressionUUID->"98146db6-ab25-4aed-8af9-7e883311ba3c"],
+Cell[1819, 59, 518, 11, 72, "Output",ExpressionUUID->"88e97ab9-dfed-4716-afd5-8984dd49027a"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
