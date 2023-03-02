@@ -27,21 +27,21 @@ But what if there was a way that computers could help us yet? A way to ingest fu
 
 This graph plots words' meanings in what's called feature space.
 
-<img src="./images/Clipboard_9.png" width="400">
+<img src="./images/Clipboard_9.png" width="650">
 
 You'll see that the points that are closer together are similar. You can even plot entire sentences. The technology has gotten so much better now that it's possible to plot entire books: long chapters of text.
 
-<img src="./images/Clipboard_2.png" width="400">
+<img src="./images/Clipboard_2.png" width="650">
 
 But what happens when the UMAP algorithm and and culture collide? We'll run the top million tweets through this algorithm and plot each in feature space.
 
-<img src="./images/Clipboard_26.png" width="400">
+<img src="./images/Clipboard_26.png" width="650">
 
 In branding, we say our clients are in trouble. Their competition is eating their lunch. If the don’t do something about it, they’ll fall behind
 
 What if, instead of just taking their word for it, there was some kind of  data to back that up? A convincing visual, perhaps? Let’s pull from thousands of sentences their competitors have written, and show how messages—the conversation—has shifted over time?
 
-<img src="./images/Clipboard_11.png" width="400">
+<img src="./images/Clipboard_11.png" width="650">
 
 This could be a powerful selling tool. To get more SOWs signed and, to sell ideas once we’ve gotten the business.
 
@@ -177,7 +177,7 @@ plotFeatures[xy_, sentences_] := Module[{},
   ]
 ```
 
-<img src="./images/Clipboard_27.png" width="400">
+<img src="./images/Clipboard_27.png" width="650">
 
 [This document is a work-in-progress. More to come!]
 
