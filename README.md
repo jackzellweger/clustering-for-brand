@@ -47,6 +47,8 @@ This could be a powerful selling tool. To get more SOWs signed and, to sell idea
 
 What other insights could we gather using this technology? How else could we apply it to more challenges to give us an edge in other domains? 
 
+Here's my shot at coding up a program that takes in sentences that competitors have on their websites, running through the OpenAI text embedding API, and then plotting the embeddings in clusters with UMAP.
+
 **Scrape the website…**
 
 ```mathematica
