@@ -47,8 +47,6 @@ This could be a powerful selling tool. To get more SOWs signed and, to sell idea
 
 What other insights could we gather using this technology? How else could we apply it to more challenges to give us an edge in other domains? 
 
-[Code + project to go here]
-
 **Scrape the website…**
 
 ```mathematica
